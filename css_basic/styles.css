@@ -1,0 +1,48 @@
+
+body, main {
+    display: flex;
+  }
+  
+
+  body {
+    flex-direction: column;
+  }
+  
+  main {
+    flex-direction: row;
+  }
+  
+  main {
+    flex: auto;
+  }
+  
+  article {
+    flex: 2;
+  }
+  
+  aside {
+    flex: 1;
+  }
+  
+  article, aside {
+    overflow-y: auto;
+  }
+
+  /* extra styles */
+
+article {
+  background-color: #F5F5F5;
+}
+
+aside {
+  border: 1px solid #DDD;
+  padding: 20px;
+}
+
+a {
+  font-weight: bold;
+  font-style: italic;
+}
+header {
+  border-bottom: 1px solid #EEE;
+}

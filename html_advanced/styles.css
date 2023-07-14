@@ -1,0 +1,25 @@
+body {
+    display: flex;
+  }
+  main {
+    display: flex;
+  }
+  body {flex-direction:column}
+  main {flex-direction: row}
+  main {flex: auto}
+   article {flex: 2}
+   aside {flex: 1}
+   article {overflow-y: auto}
+   aside {overflow-y: auto}
+   p {border-style: solid;
+    border-color: blue;}
+    a {border-style: solid;
+        border-color: green;}
+        article {border-style: solid;
+            border-color: darkgray;}
+            #left{
+                float: left;
+              }
+              #right{
+                float: right;
+              }
